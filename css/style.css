@@ -86,3 +86,10 @@ button[b] {
 .button[b]:active {
   background-color: #004085;
 }
+
+@media only screen and (max-width: 375px) {
+  /* Styles for iPhone SE and smaller */
+	div[c] {
+		max-width: 90vw;
+	}
+}
