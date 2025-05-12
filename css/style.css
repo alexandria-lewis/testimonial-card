@@ -1,0 +1,88 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+html {
+	background: Gainsboro;
+}
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+
+div[c] {
+	background: white;
+	border-radius: 5px;
+	max-width: 500px;
+	margin: 20vh auto 0 auto;
+	padding: 20px;
+}
+div[h] {
+	display: flex;
+	width: 100%;
+}
+picture {
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+div[m] p {
+    font-weight: 700;
+  }
+div[m] span {
+  color: gray;
+}
+button[b] {
+	margin: 10px auto 0 auto;
+  display: block;
+	padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button[b]:hover {
+  background-color: #0056b3;
+}
+
+.button[b]:active {
+  background-color: #004085;
+}
